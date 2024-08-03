@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom/client'; // imports dom , dom manipulates and updates the webpage which is structured in a tree like structure.
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
