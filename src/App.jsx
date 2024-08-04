@@ -7,6 +7,7 @@ import React from 'react'; // imports react from react library. not necessary no
 // page imports
 import Hello from './screen/hello.jsx'
 import { Aircraft } from './screen/pass_props.jsx';
+import { Animal } from './screen/obj_props.jsx';
 
 function App(props) {  //hello function is made
   return (
@@ -14,6 +15,7 @@ function App(props) {  //hello function is made
       <Hello />
       <Aircraft plane='737' manufacture='Boeing'/>
       <Aircraft plane='A380'manufacture='Airbus'/>
+      <Animal />
     </>
   ) // a function has to have atleast one return fun and it returns something
 }
